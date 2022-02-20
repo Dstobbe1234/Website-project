@@ -1,0 +1,48 @@
+html {
+    background: url(img/space.jpg);
+}
+
+body {
+    padding: 20px auto;
+    color: white;
+}
+.link {
+    color: red;
+}
+
+.link-Pressed {
+    color: white;
+}
+
+#body {
+    background: rgba(255, 150, 0, 0.4);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#urls {
+    border: 2px solid white;
+    text-align:center;
+    padding: 20px 20px;
+}
+
+h1 {
+    text-align:center;
+    font-family: monospace;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    padding-left: 40px;
+}
+
+img {
+    width: 600px;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
