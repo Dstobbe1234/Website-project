@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    padding: 20px auto;
     color: white;
+    width: 1000px;
+    margin: 25px auto;
 }
 .link {
     color: red;
@@ -24,6 +25,7 @@ body {
     border: 2px solid white;
     text-align:center;
     padding: 20px 20px;
+    margin-bottom:20px;
 }
 
 h1 {
@@ -39,7 +41,8 @@ h3 {
 }
 
 img {
-    width: 600px;
+    width: 1000px;
+    margin: 20px, 20px;
 }
 
 p {
