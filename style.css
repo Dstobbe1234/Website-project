@@ -42,10 +42,18 @@ h3 {
 
 img {
     width: 1000px;
-    margin: 20px, 20px;
 }
 
 p {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+#didYouKnow {
+    text-align:center;
+}
+
+#randFact {
+    color:peru;
+}
+
