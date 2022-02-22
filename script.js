@@ -1,13 +1,8 @@
 let marsimg = document.getElementById("marsimg");
 let randFact = document.getElementById("randFact");
 let submitBtn = document.getElementById("submitBtn");
-let a1 = document.getElementById("a1");
-let a2 = document.getElementById("a2");
-
 
 marsimg.addEventListener("click", changeImg);
-submitBtn.addEventListener("click", quizResults);
-
 
 function changeImg() {
     let imgRandom = Math.random();
@@ -20,7 +15,7 @@ function changeImg() {
             marsimg.src = "img/mars3.png"
         }
     } else if (marsimg.src === "http://127.0.0.1:5500/img/mars1.png") {
-        if (imgRandom <= 0.5 && marsimg.src !== "http://127.0.0.1:5500/img/mars2.png") {
+        if (imgRandom <= 0.5) {
             marsimg.src = "img/mars2.png";
         } else {
             marsimg.src = "img/mars3.png";
@@ -60,9 +55,5 @@ function changeImg() {
     } else {
         randFact.innerHTML = "Mars has an extremely small atmosphere made mostly out of carbon dioxide!"
     }
-}
-
-function quizResults() {
-
 }
 
