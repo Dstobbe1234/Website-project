@@ -37,7 +37,7 @@ h1 {
 }
 
 h3 {
-    padding-left: 40px;
+    text-align: center;
 }
 
 img {
@@ -68,10 +68,35 @@ input {
     margin-left:50px;
     width: 200px;
     height: 20px;
+    border-color: white;
+    border-width: 5px;
 }
 
 button {
     cursor:pointer;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom:10px;
+    margin-left: 50px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+
+.correct {
+    border-color: rgb(0, 255, 0);
+}
+
+.incorrect {
+    border-color: rgb(255, 0, 0);
+} 
+
+#result {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#text {
+    padding: 25px 60px;
 }

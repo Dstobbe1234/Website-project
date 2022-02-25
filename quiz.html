@@ -19,22 +19,22 @@
         <h1>MARS</h1>
         <h3>Quiz:</h3>
         <p class="quiz">Q1: How many moons does mars have?</p>
-        <p><input type="number" id="a1" min="0"></p>
+        <p><input type="number" id="a1"  min="0"> <span id="feedback1"></span></p>
 
         <p class="quiz"> Q2: How long does a Mars year last? (Earth days)</p>
-        <p><input type="number" id="a2" min="0"></p>
+        <p><input type="number" id="a2"  min="0"> <span id="feedback2"></span></p>
 
         <p class="quiz"> Q3: What is the gravity on Mars? (round to nearest m/s^2) </p>
-        <p><input type="number" id="a3" min="0"></p>
+        <p><input type="number" id="a3"  min="0"> <span id="feedback3"></span></p>
 
         <p class="quiz">Q4: What is another name people use for the planet Mars?</p>
-        <p><input type="text" id="a4"></p>
+        <p><input type="text" id="a4" > <span id="feedback4"></span></p>
 
         <p class="quiz">Q5: How much longer is a Mars day than a day on Earth? (mins)</p>
-        <p><input type="number" id="a5" min="0"></p>
+        <p><input type="number" id="a5" min="0"> <span id="feedback5"></span></p>
         
-        <button id="submitBtn">Submit answers</button>
-        <p><span id="score">--</span>/5 (<span id="percentage">--</span>%)</p>
+        <button id="submitBtn">Submit</button>
+        <p id="result"><span id="score">--</span>/5 (<span id="percentage">--</span>%)</p>
     </div>
     <script src="quiz-script.js"></script>
 </body>
