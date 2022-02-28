@@ -40,8 +40,9 @@ h3 {
     text-align: center;
 }
 
-img {
+#marsimg {
     width: 1000px;
+    clip-path: circle(310px);
 }
 
 p {
@@ -97,6 +98,12 @@ button {
     margin-top: 10px;
 }
 
-#text {
-    padding: 25px 60px;
+.text {
+    padding: 30px 60px;
+}
+
+#img1 {
+    width: 400px; 
+    margin: 30px 60px;
+    border: 10px solid white;
 }

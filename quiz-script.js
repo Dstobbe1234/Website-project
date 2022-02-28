@@ -40,7 +40,7 @@ function score() {
         a3.classList.add("incorrect");
         feedback3.innerHTML = "Incorrect (4)";
     }
-    if (a4.value.toLowerCase() === "red planet" || a3.value.toLowerCase() === "the red planet") {
+    if (a4.value.toLowerCase() === "red planet" || a4.value.toLowerCase() === "the red planet") {
         correctAnswers++;
         a4.classList.add("correct");
         feedback4.innerHTML = "Correct!";
