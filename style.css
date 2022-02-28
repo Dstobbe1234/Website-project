@@ -92,7 +92,7 @@ button {
     border-color: rgb(255, 0, 0);
 } 
 
-#result {
+#result, #encouragement {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;

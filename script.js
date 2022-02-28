@@ -1,9 +1,14 @@
+// Website Homepage - David Stobbe
+
+// Variables for HTML elements
 let marsimg = document.getElementById("marsimg");
 let randFact = document.getElementById("randFact");
 let submitBtn = document.getElementById("submitBtn");
 
+// Event Listener for Mars button
 marsimg.addEventListener("click", changeImg);
 
+// Function - random fact generator
 function changeImg() {
     let imgRandom = Math.random();
     if (marsimg.src === "http://127.0.0.1:5500/img/mars-home.png") {
